@@ -1,0 +1,99 @@
+/* *{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem; /*1rem = 16px
+
+}
+.row{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    min-height: 100vh; /* Đảm bảo wrapper chiếm toàn bộ chiều cao màn hình */
+
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1; /* Đẩy footer xuống dưới */
+}
+
+footer {
+    background: #343a40; /* Màu nền tối */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+/*carousel*/
+.carousel-inner img {
+    height: 500px; /* Điều chỉnh chiều cao tùy ý */
+    object-fit: cover; /* Giúp ảnh không bị méo */
+}
+/*màu header*/
+.bg-gray-custom {
+    background-color: #c3d3ec; /* Xám hơi đậm */
+}
+/**màu footer*/
+.bg-footer{
+    background-color: #646567; /* Xám hơi đậm */
+}
+/*main- cart*/
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-10px);
+}
+.card-img-top {
+    height: 180px; /* Đồng bộ kích thước ảnh */
+    object-fit: cover;
+}
+.tieude{
+    text-align: center;
+    margin-top: 60px;
+}
+/*form login*/
+.modal-dialog {
+    display: flex;
+    align-items: center;
+    min-height: 100vh; /* Chiều cao tối thiểu bằng 100% màn hình */
+}
+/*nút login*/
+.custom-btn {
+    width: 100px; /* Điều chỉnh kích thước theo ý muốn */
+
+}
+input[type=submit] {
+    display: block;  /* Đảm bảo nó là block để dễ căn chỉnh */
+    margin: 0 auto;  /* Căn giữa theo chiều ngang */
+    text-align: center; /* (Không cần thiết nhưng có thể để an toàn) */
+}
+/*tổng quan-trang chủ*/
+.text-th {
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
