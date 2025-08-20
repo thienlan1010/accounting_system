@@ -27,9 +27,9 @@ Built a web-based accounting system to manage financial transactions and debt tr
 <img width="191" height="309" alt="image" src="https://github.com/user-attachments/assets/7113b3fe-11da-45b9-8484-19685ecfedcc" />
 
 🛠️ Installation
-1. Clone repo:
+1. Clone the repository:
    ```bash
    git clone https://github.com/thienlan1010/accounting-system.git
-2. Import database từ thư mục database/ vào MySQL.
-3. Chạy dự án với XAMPP
+2. mport the database from the database/ folder into MySQL.
+3. Run the project using XAMPP (or any PHP development server).
 
